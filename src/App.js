@@ -112,7 +112,7 @@ export default function App() {
           <footer>
             This project was coded by Aaliyah Lahai and is{" "}
             <a
-              href="https://github.com/AaliyahL635/Weather-app"
+              href="https://github.com/AaliyahL635/weather-react-assignment"
               target="_blank"
               rel="noopener noreferrer"
             >
