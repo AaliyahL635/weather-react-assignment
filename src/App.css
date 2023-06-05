@@ -1,38 +1,119 @@
-.App {
+h1,
+h2,
+h3 {
+  font-family: Cerebri-Sans, Helvetica, Arial, sans-serif;
+}
+h1 {
+  color: black;
+  font-size: 58px;
+  margin-bottom: 0px;
+}
+h2 {
+  color: black;
+  font-size: 45px;
+  font-weight: bolder;
+  margin-bottom: 0px;
+}
+h5 {
+  font-family: Cerebri-Sans, Helvetica, Arial, sans-serif;
+  text-transform: capitalize;
+  font-size: 20px;
+  margin-bottom: 0px;
+}
+p {
+  font-family: Cerebri-Sans, Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  margin-bottom: 0px;
+}
+
+ul {
+  list-style: none;
+  font-size: 20px;
+  margin-left: 0px;
+  padding-left: 0px;
+  font-family: Cerebri-Sans, Helvetica, Arial, sans-serif;
+  margin-bottom: 0px;
+  font-weight: light;
+  color: #116df6;
+}
+#humidity {
+  font-weight: bolder;
+}
+#wind {
+  font-weight: bolder;
+}
+#tempElement {
+  font-size: 105px;
+}
+
+.col2 {
+  color: black;
+  font-size: 100px;
+  margin-block-end: 20px;
+}
+.units {
+  color: black;
+  font-size: 100px;
+  margin-block-end: 20px;
+}
+.container {
+  display: block;
+  max-width: 1000px;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 30px 50px rgb(65 50 100 / 8%);
+  color: #878787;
+  padding: 40px;
+  box-sizing: border-box;
+  margin-left: 15px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.col-auto {
+  position: relative;
+}
+
+.input-group mb-3 {
+  margin-top: 50px;
+}
+.card-title {
   text-align: center;
+  font-size: 50px;
+}
+.card-text {
+  text-align: center;
+  color: grey;
+  font-size: 20px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.card {
+  margin-left: 15px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+img {
+  margin-right: 5px;
+  height: 64px;
+  width: 64px;
+  size: 30px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.WeatherForecast {
+  padding-bottom: 40px;
+  margin-top: 40px;
+  margin-bottom: 0px;
+  text-align: center;
+  margin-top: 20px;
 }
-
-.App-link {
-  color: #61dafb;
+.forecast-time {
+  font-family: Cerebri-Sans, Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  color: rgb(180, 177, 177);
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.forecast-temperature {
+  font-family: Cerebri-Sans, Helvetica, Arial, sans-serif;
+  font-size: 17px;
+}
+.forecast-temperature-max {
+  color: #116df6;
+}
+.forecast-temperature-min {
+  color: #82abe9;
 }
