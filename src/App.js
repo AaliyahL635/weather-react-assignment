@@ -119,7 +119,7 @@ export default function App() {
             </a>{" "}
             and{" "}
             <a
-              href="https://soft-medovik-41d4c6.netlify.app/"
+              href="https://master--neon-choux-656c2a.netlify.app/"
               target="_blank"
               rel="noopener noreferrer"
             >
