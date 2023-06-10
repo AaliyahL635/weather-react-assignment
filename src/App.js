@@ -71,7 +71,7 @@ export default function App() {
             <div class="col-6">
               <h1 id="city">Milan, Metropolitan City of Milan</h1>
               <p id="currentDate">Date</p>
-              <h5 id="currentFeel"></h5>
+              <p id="currentFeel"></p>
               <ul>
                 <li class="col1">
                   Humidity:{" "}
