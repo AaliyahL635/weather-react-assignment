@@ -1,9 +1,7 @@
 import React, { useState } from "react";
 import "./App.css";
-import "./App.css";
 import "./Switch.js";
-import "./Switch.js";
-import axios from "axios";
+
 import axios from "axios";
 export default function Weather(props) {
   const [weatherData, setWeatherData] = useState({ ready: true });
