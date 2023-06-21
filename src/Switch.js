@@ -46,7 +46,6 @@ export default function Switch() {
           <input
             class="form-check-input"
             type="checkbox"
-            role="switch"
             id="tempSwitch"
             onChange={unitConvertTemp}
           />

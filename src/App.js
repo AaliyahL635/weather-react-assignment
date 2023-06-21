@@ -1,5 +1,6 @@
+import React from "react";
 import "./App.css";
-import "./Weather.js";
+import Weather from "./Weather.js";
 import "./Switch.js";
 
 export default function App() {
@@ -23,7 +24,6 @@ export default function App() {
         <script src="https://unpkg.com/axios@1.1.2/dist/axios.min.js"></script>
       </header>
 
-      <Switch />
       <Weather defaultCity="Milan" />
 
       <footer>
