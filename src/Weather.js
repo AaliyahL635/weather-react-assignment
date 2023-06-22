@@ -27,8 +27,8 @@ export default function Weather(props) {
     setCity(event.target.value);
   }
   function searchCity() {
-    let apiKey = "bd3bb6534458ba51b48c49f5155745b6";
-    let apiUrl = `https://api.shecodes.io/weather/v1/current?query=${city}&key=${apiKey}&units=metric`;
+    let apiKey = "e060f7b7t14cca4123801e32a3d6adob";
+    let apiUrl = `https://api.shecodes.io/weather/v1/current?query=Lisbon&key=${apiKey}&units=metric`;
     axios.get(apiUrl).then(showTemperature);
   }
   if (weatherData.ready) {
