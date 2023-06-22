@@ -1,42 +1,42 @@
-import React, { useState } from "react";
+import React from "react";
 import "./App.css";
 
 export default function Switch() {
-  const [temperatureSwitch, settemperatureSwitch] = useState(null);
+  // const [temperatureSwitch, settemperatureSwitch] = useState(null);
 
   function unitConvertTemp(event) {
     event.preventDefault();
 
-    settemperatureSwitch({
-      currentSwitchPosition: event.value,
-      temperatureElement: event.temperature,
-      fahrenheitConversion: Math.round((baseTemperature * 9) / 5 + 32),
-      celciusConversion: Math.round((baseTemperature - 32) * 5) / 9,
-      baseTemperature: null,
-      globalUnit: "metric",
-    });
+    // settemperatureSwitch({
+    //   currentSwitchPosition: event.value,
+    //   temperatureElement: event.temperature,
+    //   fahrenheitConversion: Math.round((baseTemperature * 9) / 5 + 32),
+    //   celciusConversion: Math.round((baseTemperature - 32) * 5) / 9,
+    //   baseTemperature: null,
+    //   globalUnit: "metric",
+    // });
 
-    if (currentSwitchPosition === "on") {
-      if (globalUnit === "metric") {
-        return { fahrenheitConversion };
-      } else {
-        {
-          baseTemperature;
-        }
-      }
-      globalUnit = "imperial";
-      temperatureSwitch = "off";
-    } else {
-      if (globalUnit === "imperial") {
-        return { celciusConversion };
-      } else {
-        {
-          baseTemperature;
-        }
-      }
-      globalUnit = "metric";
-      temperatureSwitch.value = "on";
-    }
+    // if (currentSwitchPosition === "on") {
+    //   if (globalUnit === "metric") {
+    //     return { fahrenheitConversion };
+    //   } else {
+    //     {
+    //       baseTemperature;
+    //     }
+    //   }
+    //   globalUnit = "imperial";
+    //   temperatureSwitch = "off";
+    // } else {
+    //   if (globalUnit === "imperial") {
+    //     return { celciusConversion };
+    //   } else {
+    //     {
+    //       baseTemperature;
+    //     }
+    //   }
+    //   globalUnit = "metric";
+    //   temperatureSwitch.value = "on";
+    // }
   }
 
   return (
